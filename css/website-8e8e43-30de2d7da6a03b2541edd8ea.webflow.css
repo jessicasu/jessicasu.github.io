@@ -903,6 +903,18 @@
   padding-top: 40px;
 }
 
+.onboarding-project-cover-image {
+  max-height: 280px;
+}
+
+.notification-center-cover-image {
+  max-height: 280px;
+}
+
+.footprint-cover-image {
+  max-height: 280px;
+}
+
 @media screen and (max-width: 991px) {
   .icon {
     color: #f5f5f5;
@@ -919,7 +931,7 @@
   }
 
   .onboarding-project-image {
-    max-width: 316px;
+    max-width: 100%;
     margin-right: 0px;
     margin-left: 0px;
     -webkit-box-flex: 0;
@@ -947,12 +959,13 @@
   }
 
   .notification-center-image {
-    max-width: 316px;
+    max-height: none;
+    max-width: 100%;
   }
 
   .footprint-project-image {
     max-height: none;
-    max-width: 316px;
+    max-width: 100%;
   }
 
   .sparkle-3 {
@@ -989,6 +1002,18 @@
   }
 
   .image-3 {
+    max-width: 316px;
+  }
+
+  .onboarding-project-cover-image {
+    max-width: 316px;
+  }
+
+  .notification-center-cover-image {
+    max-width: 316px;
+  }
+
+  .footprint-cover-image {
     max-width: 316px;
   }
 }
@@ -1186,6 +1211,21 @@
   }
 
   ._30-days-of-illustrations-cover-image {
+    max-width: 100%;
+  }
+
+  .onboarding-project-cover-image {
+    max-height: none;
+    max-width: 100%;
+  }
+
+  .notification-center-cover-image {
+    max-height: none;
+    max-width: 100%;
+  }
+
+  .footprint-cover-image {
+    max-height: none;
     max-width: 100%;
   }
 }
