@@ -100,6 +100,12 @@
   font-size: 18px;
 }
 
+.paragraph.black.centered {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+}
+
 .paragraph.white {
   color: #f5f5f5;
   font-size: 18px;
@@ -151,7 +157,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 90px;
+  margin-top: 0px;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -310,6 +316,8 @@
 
 .lp-projects-container {
   max-width: 1170px;
+  margin-bottom: 0px;
+  padding-bottom: 72px;
 }
 
 .button-text {
@@ -521,7 +529,7 @@
   margin-bottom: 0px;
   padding-top: 32px;
   padding-bottom: 80px;
-  background-color: #fff;
+  background-color: #fbfbfb;
   color: #f5f5f5;
 }
 
@@ -532,6 +540,10 @@
 .case-study-section-div {
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.case-study-section-div.footprint {
+  margin-bottom: 56px;
 }
 
 .table-of-contents-heading {
@@ -565,11 +577,6 @@
   color: #37352f;
 }
 
-.introducing-footprint-app-image {
-  padding-top: 24px;
-  padding-bottom: 8px;
-}
-
 .caption {
   color: #37352f;
   font-size: 12px;
@@ -591,12 +598,6 @@
   padding-bottom: 8px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #a8a8a8;
-}
-
-.image-2 {
-  display: inline-block;
-  -o-object-fit: fill;
-  object-fit: fill;
 }
 
 .trigger-for-table-of-content {
@@ -702,7 +703,7 @@
   display: flex;
   max-width: 912px;
   margin-top: 0px;
-  padding: 32px 24px 48px;
+  padding: 0px 24px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -713,7 +714,7 @@
 }
 
 .about-me-section {
-  padding-top: 80px;
+  padding-top: 56px;
   padding-bottom: 80px;
 }
 
@@ -760,10 +761,6 @@
 .link {
   color: #f5f5f5;
   text-decoration: underline;
-}
-
-.link.orange {
-  color: #f8a60d;
 }
 
 .link.yellow {
@@ -853,11 +850,9 @@
 }
 
 ._2-columns {
+  margin-right: 0px;
+  margin-left: 0px;
   padding-top: 16px;
-}
-
-.farmworker-aid-app-cover-image {
-  max-height: 280px;
 }
 
 ._30-days-of-illustrations-cover-image {
@@ -873,26 +868,6 @@
   padding-top: 16px;
 }
 
-.list-item-6 {
-  margin-bottom: -16px;
-}
-
-.list-item-7 {
-  margin-bottom: -16px;
-}
-
-.blog-and-reflect-link {
-  color: #f7d28f;
-}
-
-.try-out-new-recipes-link {
-  color: #f7d28f;
-}
-
-.photography-link {
-  color: #f7d28f;
-}
-
 .album-div-block {
   padding-top: 40px;
 }
@@ -906,11 +881,110 @@
 }
 
 .footprint-cover-image {
-  max-height: 280px;
+  max-height: none;
+}
+
+.container-2 {
+  max-width: 912px;
+}
+
+.navbar-2 {
+  background-color: #141414;
+}
+
+.column-3 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.column-4 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.results-column {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.body-2 {
+  background-color: #fbfbfb;
+}
+
+.columns-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.columns-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.column-14 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.column-15 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.onboarding-new-modal-image {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.checklist-image {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.personalize-your-values-image {
+  padding-bottom: 16px;
+}
+
+.footprint-demo-gif {
+  padding-bottom: 16px;
+}
+
+.tree-gif {
+  padding-bottom: 16px;
+}
+
+.challenge-friends-image {
+  padding-bottom: 16px;
+}
+
+.column-18 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.suggested-work-column-2 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.suggested-work-column-1 {
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 @media screen and (max-width: 991px) {
   .icon {
+    padding-top: 8px;
     color: #f5f5f5;
   }
 
@@ -970,6 +1044,11 @@
     display: none;
   }
 
+  .about-me-section {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
   .profile-picture {
     -webkit-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
@@ -985,17 +1064,8 @@
     object-fit: fill;
   }
 
-  .farmworker-aid-app-cover-image {
-    max-height: none;
-    max-width: 316px;
-  }
-
   ._30-days-of-illustrations-cover-image {
     max-height: none;
-    max-width: 316px;
-  }
-
-  .image-3 {
     max-width: 316px;
   }
 
@@ -1094,12 +1164,6 @@
     order: 1;
   }
 
-  .project-overview-container._30-days-of-illustrations-project-overview-container {
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
   .project-overview {
     max-width: none;
   }
@@ -1124,18 +1188,6 @@
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-  }
-
-  .list-item.list-item-5 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
@@ -1190,6 +1242,11 @@
     flex-direction: column;
   }
 
+  .about-me-section {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
   .about-me-column-2 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1209,8 +1266,9 @@
     align-self: center;
   }
 
-  .farmworker-aid-app-cover-image {
-    max-width: 440px;
+  .column-2 {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   ._30-days-of-illustrations-cover-image {
@@ -1230,6 +1288,91 @@
   .footprint-cover-image {
     max-height: none;
     max-width: 440px;
+  }
+
+  .column-3 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .column-4 {
+    margin-bottom: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .column-7 {
+    text-align: center;
+  }
+
+  .column-8 {
+    text-align: center;
+  }
+
+  .column-9 {
+    text-align: center;
+  }
+
+  .column-10 {
+    text-align: center;
+  }
+
+  .image-4 {
+    max-width: 50%;
+  }
+
+  .image-5 {
+    max-width: 50%;
+  }
+
+  .image-6 {
+    max-width: 50%;
+  }
+
+  .image-7 {
+    max-width: 50%;
+  }
+
+  .image-8 {
+    max-width: 50%;
+  }
+
+  .column-11 {
+    padding-bottom: 16px;
+    text-align: center;
+  }
+
+  .image-9 {
+    max-width: 50%;
+  }
+
+  .image-10 {
+    max-width: 50%;
+  }
+
+  .column-12 {
+    text-align: center;
+  }
+
+  .column-13 {
+    padding-bottom: 16px;
+    text-align: center;
+  }
+
+  .column-14 {
+    padding-bottom: 40px;
+  }
+
+  .column-15 {
+    padding-bottom: 40px;
+  }
+
+  .column-16 {
+    padding-bottom: 16px;
+  }
+
+  .column-17 {
+    padding-bottom: 16px;
   }
 }
 
@@ -1273,6 +1416,10 @@
     max-width: 100%;
   }
 
+  .project-content-section {
+    padding-top: 24px;
+  }
+
   .footprint-project-image {
     max-width: 100%;
   }
@@ -1291,12 +1438,13 @@
     flex-wrap: wrap;
   }
 
-  .profile-picture {
-    display: block;
+  .about-me-section {
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 
-  .farmworker-aid-app-cover-image {
-    max-width: 280px;
+  .profile-picture {
+    display: block;
   }
 
   ._30-days-of-illustrations-cover-image {
@@ -1313,6 +1461,14 @@
 
   .footprint-cover-image {
     max-width: 280px;
+  }
+
+  .column-15 {
+    padding-bottom: 40px;
+  }
+
+  .menu-button {
+    padding-top: 20px;
   }
 }
 
