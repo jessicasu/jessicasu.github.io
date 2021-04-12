@@ -982,6 +982,10 @@
   padding-bottom: 16px;
 }
 
+.image-11 {
+  max-height: 280px;
+}
+
 @media screen and (max-width: 991px) {
   .icon {
     padding-top: 8px;
