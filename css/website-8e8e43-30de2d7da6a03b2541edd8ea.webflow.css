@@ -1356,6 +1356,10 @@
     order: 1;
   }
 
+  .nav-link-block.email {
+    display: none;
+  }
+
   .lp-projects-container {
     padding-bottom: 32px;
   }
