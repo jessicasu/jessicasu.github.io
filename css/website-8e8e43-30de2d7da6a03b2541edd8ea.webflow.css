@@ -1341,6 +1341,10 @@
   .container-5 {
     max-width: 912px;
   }
+
+  .wish-standards-cover-image {
+    max-width: 316px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1651,6 +1655,10 @@
   .suggested-work-column-1 {
     padding-bottom: 40px;
   }
+
+  .wish-standards-cover-image {
+    max-width: 440px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1793,6 +1801,11 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+  }
+
+  .wish-standards-cover-image {
+    max-height: none;
+    max-width: 280px;
   }
 }
 
