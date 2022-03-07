@@ -613,8 +613,9 @@
 }
 
 .list {
-  margin-bottom: 8px;
+  margin-bottom: 0px;
   padding-top: 8px;
+  padding-bottom: 8px;
   color: #37352f;
 }
 
@@ -1231,6 +1232,18 @@
   position: static;
 }
 
+.image-15 {
+  max-height: 280px;
+}
+
+.image-16 {
+  max-height: 280px;
+}
+
+.badging-cover-image {
+  max-height: 280px;
+}
+
 @media screen and (max-width: 991px) {
   .icon {
     padding-top: 8px;
@@ -1343,6 +1356,18 @@
   }
 
   .wish-standards-cover-image {
+    max-width: 316px;
+  }
+
+  .image-15 {
+    max-width: 316px;
+  }
+
+  .image-16 {
+    max-width: 316px;
+  }
+
+  .badging-cover-image {
     max-width: 316px;
   }
 }
@@ -1659,6 +1684,18 @@
   .wish-standards-cover-image {
     max-width: 440px;
   }
+
+  .image-15 {
+    max-width: 440px;
+  }
+
+  .image-16 {
+    max-width: 440px;
+  }
+
+  .badging-cover-image {
+    max-width: 440px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1804,6 +1841,21 @@
   }
 
   .wish-standards-cover-image {
+    max-height: none;
+    max-width: 280px;
+  }
+
+  .image-15 {
+    max-height: none;
+    max-width: 280px;
+  }
+
+  .image-16 {
+    max-height: none;
+    max-width: 280px;
+  }
+
+  .badging-cover-image {
     max-height: none;
     max-width: 280px;
   }
