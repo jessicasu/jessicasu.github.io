@@ -1395,12 +1395,12 @@
   }
 
   ._30-days-of-illustrations-cover-image {
-    max-height: none;
-    max-width: 316px;
+    max-height: 280px;
+    max-width: 100%;
   }
 
   .onboarding-project-cover-image {
-    max-width: 316px;
+    max-width: 100%;
   }
 
   .notification-center-cover-image {
@@ -1408,7 +1408,8 @@
   }
 
   .footprint-cover-image {
-    max-width: 316px;
+    max-height: 280px;
+    max-width: 100%;
   }
 
   .image-12 {
@@ -1432,11 +1433,11 @@
   }
 
   .badging-cover-image {
-    max-width: 316px;
+    max-width: 100%;
   }
 
   .fine-depreciation-homepage-img {
-    max-width: 316px;
+    max-width: 100%;
   }
 }
 
@@ -1642,12 +1643,13 @@
   }
 
   ._30-days-of-illustrations-cover-image {
-    max-width: 440px;
+    max-height: none;
+    max-width: 100%;
   }
 
   .onboarding-project-cover-image {
     max-height: none;
-    max-width: 440px;
+    max-width: 100%;
   }
 
   .notification-center-cover-image {
@@ -1657,7 +1659,7 @@
 
   .footprint-cover-image {
     max-height: none;
-    max-width: 440px;
+    max-width: 100%;
   }
 
   .column-3 {
@@ -1762,11 +1764,13 @@
   }
 
   .badging-cover-image {
-    max-width: 440px;
+    max-height: none;
+    max-width: 100%;
   }
 
   .fine-depreciation-homepage-img {
-    max-width: 440px;
+    max-height: none;
+    max-width: 100%;
   }
 }
 
@@ -1878,11 +1882,11 @@
   }
 
   ._30-days-of-illustrations-cover-image {
-    max-width: 280px;
+    max-width: 100%;
   }
 
   .onboarding-project-cover-image {
-    max-width: 280px;
+    max-width: 100%;
   }
 
   .notification-center-cover-image {
@@ -1890,7 +1894,7 @@
   }
 
   .footprint-cover-image {
-    max-width: 280px;
+    max-width: 100%;
   }
 
   .column-15 {
@@ -1929,12 +1933,12 @@
 
   .badging-cover-image {
     max-height: none;
-    max-width: 280px;
+    max-width: 100%;
   }
 
   .fine-depreciation-homepage-img {
     max-height: none;
-    max-width: 280px;
+    max-width: 100%;
   }
 }
 
