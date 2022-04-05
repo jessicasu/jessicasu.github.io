@@ -71,6 +71,7 @@
   margin-top: 16px;
   margin-bottom: 8px;
   font-family: Lora, sans-serif;
+  color: #141414;
   font-size: 24px;
   line-height: 40px;
   font-weight: 600;
@@ -91,8 +92,8 @@
   margin-top: 16px;
   margin-bottom: 8px;
   font-family: Lora, sans-serif;
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 18px;
+  line-height: 40px;
   font-weight: 600;
 }
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Mar 29 2022 03:45:14 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Apr 05 2022 21:12:44 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="62413c3aa4740e0b94f9dcf2" data-wf-site="6233f990551d298c802b45cb">
 <head>
   <meta charset="utf-8">
@@ -39,33 +39,33 @@
   <div class="project-section-overview-section wf-section">
     <div class="project-section-overview-container w-container">
       <h1 data-w-id="1b50173c-ec1a-d478-84f0-e8ecd0da7239" style="opacity:0" class="heading h1 white">Fine Depreciation</h1>
-      <p data-w-id="0a78d3ef-6113-5fe6-2000-967c97f5bc0b" style="opacity:0" class="paragraph white">To improve merchant satisfaction and make Wish a more competitive selling platform, I worked with the team to introduce a policy change that removes fines and uses infractions to enforce policies. </p>
+      <p data-w-id="0a78d3ef-6113-5fe6-2000-967c97f5bc0b" style="opacity:0" class="paragraph white">To improve merchant satisfaction, I worked with the team to introduce a policy change that removes fines and holds sellers accountable to their infractions.</p>
     </div>
   </div>
   <div class="hero-image darker-purple wf-section">
-    <div data-w-id="7ddbaf1c-9032-e827-2390-e901c087f811" class="container-5 w-container"><img src="../images/Fine-Depreciation-Cover-Image_1.png" loading="lazy" style="opacity:0" data-w-id="5ce0e8da-2e37-b205-17a6-4fa5e8caa3b5" srcset="../images/Fine-Depreciation-Cover-Image_1-p-500.png 500w, ../images/Fine-Depreciation-Cover-Image_1-p-800.png 800w, ../images/Fine-Depreciation-Cover-Image_1-p-1080.png 1080w, ../images/Fine-Depreciation-Cover-Image_1-p-1600.png 1600w, ../images/Fine-Depreciation-Cover-Image_1-p-2000.png 2000w, ../images/Fine-Depreciation-Cover-Image_1.png 2600w" sizes="(max-width: 991px) 100vw, 940px" alt=""></div>
+    <div data-w-id="7ddbaf1c-9032-e827-2390-e901c087f811" class="container-5 w-container"><img src="../images/Fine-Depreciation-Cover-Image.svg" loading="lazy" alt=""></div>
   </div>
   <div class="project-content-section wf-section">
     <div data-w-id="82523143-155b-f163-8d0f-2cc37381dae3" style="opacity:0" class="project-content-container w-container">
       <div id="Ideation" class="case-study-section-div">
-        <h2 id="Onboarding-Surveys" class="heading h3">Context</h2>
-        <p class="paragraph">Wish has two policy enforcement methods: penalties (fines and payment withholdings) and infractions. With the launch of the new seller standards program, Wish wanted to remove the concept of fines. This new direction stemmed from several reasons:</p>
+        <h3 id="Onboarding-Surveys" class="heading h3">Context</h3>
+        <p class="paragraph">Wish had two policy enforcement methods: penalties (which includes fines and payment withholdings) and infractions. With the launch of the new seller standards program, Wish wanted to remove the concept of fines. This new direction stemmed from:</p>
         <ul role="list" class="list">
           <li>
-            <p class="paragraph"><strong>Strategy change:</strong><strong class="bold"> </strong>Instead of using fines to prevent bad behavior, we want to hold merchants accountable to each of their infractions. Each infraction would affect their seller standards score and ultimately impact their overall impression allocation and commission rates on our platform.</p>
+            <p class="paragraph"><strong>Strategy change: </strong>Instead of using fines to prevent bad behavior, we wanted to hold merchants accountable to each of their infractions. Each infraction would affect their seller standards score and impact their impressions and commission rates.</p>
           </li>
           <li>
-            <p class="paragraph"><strong>Operational risk: </strong>There&#x27;s the risk of issuing fines and not being able to collect them from merchants.</p>
+            <p class="paragraph"><strong>Operational risk: </strong>There was the risk of issuing fines but not being able to collect them.</p>
           </li>
           <li>
-            <p class="paragraph"><strong>PR issues:</strong><strong class="bold"> </strong>Monetary penalties are uncommon in marketplaces and merchants view fines as a way for the Wish platform exploit sellers and take their money. <strong></strong></p>
+            <p class="paragraph"><strong>PR issues: </strong>Monetary penalties are uncommon in other marketplaces and merchants saw fines as a way for Wish to exploit sellers and take their money when they did something wrong.</p>
           </li>
         </ul>
-        <p class="paragraph">While we want to improve merchant satisfaction, we still want to hold merchants accountable to any policy violations. As part of this project, we planned to <strong>migrate existing penalties to infractions</strong><strong class="bold-text-5"> </strong>and<strong> </strong><strong>allow merchants to dispute the infractions</strong> if needed.</p>
+        <p class="paragraph">We wanted to move away from fines and and this meant <strong>moving existing policy violations from penalties to infractions</strong>, while still <strong>enabling merchants to dispute the infractions</strong> and fix their seller standards score if they were wrongfully issued.</p>
       </div>
       <div id="The-Challenge" class="case-study-section-div">
-        <h2 id="Onboarding-Context" class="heading h3">The Problem</h2>
-        <p class="paragraph">As part of issuing infractions, Wish needs to be able to allow merchants to dispute it in case it was wrongfully issued or if the situation was out of the merchants&#x27; control. We originally planned to use the dispute flow used for infractions for the penalties we were going to migrate. However as we were auditing the existing infraction dispute flow, we realized that this isn’t something we can just simply transfer over.</p>
+        <h3 id="Onboarding-Context" class="heading h3">The Problem</h3>
+        <p class="paragraph">As part of issuing infractions, Wish needs to allow merchants to dispute it in case it was wrongfully issued or if the situation was out of the merchants’ control. We originally planned to use the existing infraction dispute flow for the soon-to-be migrated penalties. However, as we were auditing the existing infraction page, we realized that this isn’t something we could reuse.</p>
         <div id="The-Challenge" class="case-study-section-div">
           <div class="w-row">
             <div class="w-col w-col-6"><img src="../images/Generic-message.png" loading="lazy" sizes="(max-width: 479px) 89vw, (max-width: 767px) 93vw, (max-width: 991px) 47vw, 430px" srcset="../images/Generic-message-p-500.png 500w, ../images/Generic-message-p-800.png 800w, ../images/Generic-message-p-1080.png 1080w, ../images/Generic-message-p-1600.png 1600w, ../images/Generic-message.png 1640w" alt="">
@@ -74,36 +74,36 @@
             </div>
             <div class="w-col w-col-6"><img src="../images/Old-UI.png" loading="lazy" sizes="(max-width: 479px) 89vw, (max-width: 767px) 93vw, (max-width: 991px) 47vw, 430px" srcset="../images/Old-UI-p-500.png 500w, ../images/Old-UI-p-800.png 800w, ../images/Old-UI-p-1080.png 1080w, ../images/Old-UI-p-1600.png 1600w, ../images/Old-UI.png 1640w" alt="" class="old-ui">
               <p class="paragraph parapgraph-with-padding"><strong class="bold">The infraction dispute page uses the same interface as our internal tool</strong></p>
-              <p class="paragraph">It shows information that our internal team uses to review dispute requests and shows irrelevant information to merchants. This page also looks out of place compared to the rest of the platform. </p>
+              <p class="paragraph">This page was never optimized for merchants. It shows information that our internal team uses to review dispute requests and shows irrelevant information to merchants. </p>
             </div>
           </div>
         </div>
       </div>
       <div id="The-Challenge" class="case-study-section-div">
-        <h2 id="Onboarding-Context" class="heading h3">Project Goals</h2>
+        <h3 id="Onboarding-Context" class="heading h3">Project Goals</h3>
         <ul role="list" class="list">
           <li>
             <p class="paragraph">Migrate existing order fulfillment related policy violations from penalties to infractions</p>
           </li>
           <li>
-            <p class="paragraph">Collect dispute reasons and guide merchants through the dispute process</p>
+            <p class="paragraph">Guide merchants through the dispute process and help our internal team quickly resolve requests</p>
           </li>
         </ul>
       </div>
       <div id="Ideation" class="case-study-section-div">
-        <h2 id="Onboarding-Our-Approach" class="heading h3">The Approach</h2>
+        <h3 id="Onboarding-Our-Approach" class="heading h3">The Approach</h3>
         <div class="w-row">
           <div class="w-col w-col-6">
-            <p class="paragraph">To tackle this project, I worked with our team&#x27;s product manager, content strategist and compliance team members to understand the current state of things and brainstorm how we could make it easier for our merchants and internal team members to resolve the dispute.</p>
+            <p class="paragraph">To tackle this project, I partnered with the team’s product manager, content strategist and compliance team members to understand what we could do to make it easier for our merchants and internal team members to resolve disputes.</p>
             <ul role="list" class="list numbered">
+              <li>
+                <p class="paragraph">Solidify dispute reasons and requested documents</p>
+              </li>
               <li>
                 <p class="paragraph">Audit existing penalty and infraction pages</p>
               </li>
               <li>
-                <p class="paragraph">Solidify dispute reasons and corresponding documents</p>
-              </li>
-              <li>
-                <p class="paragraph">Design a proposal with given context</p>
+                <p class="paragraph">Brainstorm ideas with given context</p>
               </li>
               <li>
                 <p class="paragraph">Review with relevant teams for feedback and reiterate</p>
@@ -114,11 +114,47 @@
         </div>
       </div>
       <div id="Our-Process" class="case-study-section-div">
-        <blockquote class="heading h2">How might we revamp the infraction details page and guide merchants through the dispute process?</blockquote>
+        <blockquote class="heading h2">How might we improve the infraction page and guide merchants through the dispute process?</blockquote>
+      </div>
+      <div id="Ideation" class="case-study-section-div">
+        <h3 id="Onboarding-Recent-Improvements" class="heading h3">Ideation</h3>
+        <h4 id="Onboarding-Recent-Improvements" class="heading h4">Capturing Dispute Reasons</h4>
+        <p class="paragraph">One of the biggest things that would help our internal team is if we specified to merchants what type of information we want them to upload to prove their case. For us to be able to do that, I explored options we could take to get input from the merchant to understand why they are submitting a dispute request. </p>
+      </div>
+      <div id="Ideation" class="case-study-section-div">
+        <div class="w-row">
+          <div class="w-col w-col-4"><img src="../images/Ask-merchants-to-text-and-explain-why.svg" loading="lazy" alt="">
+            <p class="paragraph">Ask merchants to explain their situation and have the internal team follow up with additional questions</p>
+          </div>
+          <div class="w-col w-col-4"><img src="../images/Ask-questions-to-narrow-information-to-show-merchants.svg" loading="lazy" alt="">
+            <p class="paragraph">Use a questionnaire and ask questions to narrow down their situation</p>
+          </div>
+          <div class="w-col w-col-4"><img src="../images/Ask-merchants-to-self-select-reason.svg" loading="lazy" alt="">
+            <p class="paragraph">Have a dropdown to let merchants self select their dispute reason</p>
+          </div>
+        </div>
+      </div>
+      <div id="Ideation" class="case-study-section-div">
+        <h4 id="Onboarding-Recent-Improvements" class="heading h4">Providing Guidance</h4>
+        <p class="paragraph">Going hand in hand with capturing dispute reasons, I explored ways to offer merchants more guidance during the overall dispute process.</p>
+      </div>
+      <div id="Ideation" class="case-study-section-div">
+        <div class="w-row">
+          <div class="w-col w-col-4"><img src="../images/Separating-infraction-details-from-dispute-area.svg" loading="lazy" alt="">
+            <p class="paragraph">Break down the pages and separate the infraction details from the dispute area so that we’re not showing the information all at once</p>
+          </div>
+          <div class="w-col w-col-4"><img src="../images/Removing-unnecessary-or-repetitive-information.svg" loading="lazy" alt="">
+            <p class="paragraph">Remove distractions or any unnecessary information on the page</p>
+          </div>
+          <div class="w-col w-col-4"><img src="../images/Use-form-instead-of-messaging-area-to-communicate-instructions.svg" loading="lazy" alt="">
+            <p class="paragraph">Use a form to communicate instructions instead of the messaging section</p>
+          </div>
+        </div>
       </div>
       <div id="Ideation" class="case-study-section-div">
         <h2 id="Onboarding-Recent-Improvements" class="heading h3">Improved Dispute Flow</h2>
-        <p class="paragraph">To improve the overall infraction page and to help guide merchants through the dispute process, we allowed merchants to indicate their dispute reason and specify what is needed to resolve the dispute. Along with these changes, we updated the UI to match the overall look and feel of the platform.</p>
+        <p class="paragraph">With all these ideas, I focused on solutions that would make it clear for merchants to resolve a dispute and easy for the internal team to get all the necessary information they need to review the dispute.</p>
+        <p class="paragraph">Along with these changes, I also updated the UI to match the overall look and feel of the rest of the platform.</p>
         <div class="image"></div>
       </div>
       <div id="Ideation" class="case-study-section-div"><img src="../images/Infraction-details.png" loading="lazy" sizes="(max-width: 479px) 93vw, (max-width: 991px) 96vw, 880px" srcset="../images/Infraction-details-p-500.png 500w, ../images/Infraction-details-p-800.png 800w, ../images/Infraction-details-p-1080.png 1080w, ../images/Infraction-details.png 1640w" alt="" class="dispute-process-screenshots">
