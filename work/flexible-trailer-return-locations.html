@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Mon Nov 07 2022 22:23:00 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Nov 08 2022 20:03:17 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="63640a1c650a2ee2c480be48" data-wf-site="6233f990551d298c802b45cb">
 <head>
   <meta charset="utf-8">
@@ -101,11 +101,8 @@
       <div id="Ideation" class="case-study-section-div">
         <h3 id="Onboarding-Recent-Improvements" class="heading h3">Explorations</h3>
         <p class="paragraph">In early concepts, I explored ideas on how we could incorporate the feature into the stop details section and help carriers select a return location.</p><img src="../images/FTRL-Explorations.svg" loading="lazy" alt="" class="ftrl-explorations">
-        <p class="paragraph">And as I was exploring ideas, I realized that there were things we weren’t sure about:</p>
+        <p class="paragraph">As I was exploring ideas, I put together a list of questions that I couldn&#x27;t answer but knew that it would heavily influence the designs:</p>
         <ul role="list" class="list">
-          <li>
-            <p class="paragraph">How does return location preference change for a carrier?</p>
-          </li>
           <li>
             <p class="paragraph">Is time or location more important? Are they equally important?</p>
           </li>
@@ -119,27 +116,47 @@
             <p class="paragraph">What information do the carriers need to know to select a return location?</p>
           </li>
         </ul>
+        <p class="paragraph">To answer these unknowns, I reviewed the design concepts with carriers to evaluate the usability and their understanding on the new flexible trailer return locations feature.</p>
       </div>
       <div id="Ideation" class="case-study-section-div">
-        <h3 id="Onboarding-Recent-Improvements" class="heading h3">User Interviews</h3>
-        <p class="paragraph">To answer these unknown questions, I reviewed the design concepts with 6 carriers to evaluate the usability and understanding on the new flexible trailer return locations feature. And I learned that:</p>
+        <h3 id="Onboarding-Recent-Improvements" class="heading h3">User Research and Learnings</h3>
+        <p class="paragraph">After talking to 6 carriers and having them interact with a prototype of the design concepts, I learned that:</p>
         <ul role="list" class="list">
           <li>
-            <p class="paragraph">Carriers’ work schedule is volatile so there’s no singular way to think about the return location. But there are several factors that go into their decision making (familiarity with facility, cost of the fee, time of day, upcoming loads).</p>
+            <p class="paragraph">Carriers’ work schedules are volatile so there’s no singular way to think about the trailer return options. <strong>Time and location are equally important.</strong></p>
           </li>
           <li>
-            <p class="paragraph">A map view of the return locations would be nice to have since carriers have other methods of searching for the facility and satellite view.</p>
+            <p class="paragraph">There are secondary factors that help carriers decide which trailer location to return to (familiarity with facility, cost of the fee, time of day, upcoming loads).</p>
+          </li>
+          <li>
+            <p class="paragraph">Carriers <strong>prefer to configure the return location as they&#x27;re bidding or booking on the load</strong>. They&#x27;re looking to solidify their schedule and loads that will precede and follow.</p>
+          </li>
+          <li>
+            <p class="paragraph">Carriers tend to work on the same lane and so <strong>carriers are familiar with nearby metro cities</strong>. If they aren&#x27;t, they tend to resort to a navigation app.</p>
+          </li>
+          <li>
+            <p class="paragraph">A <strong>map view of the return locations would be a nice-to-have</strong> to have since carriers have other methods of searching for the satellite view of the facility.</p>
           </li>
         </ul>
-        <p class="paragraph">From these interviews, there weren’t any major changes to the MVP designs but I learned what features should be included in the V2 of this project and convinced the PM of the features’ values.</p>
+        <p class="paragraph">From these findings, I decided that we would allow carriers to configure the trailer return as they&#x27;re bidding and booking. We would give equal emphasis to the return time and location and focus on the essential information they would need to select a return location (metro city, facility name, address, and rating, and associated fee and bonus). A map view could be helpful in figuring out the location if the carrier was not familiar with it, but not essential to the launch of this feature.</p>
       </div>
       <div id="Ideation" class="case-study-section-div">
         <h2 id="Onboarding-Recent-Improvements" class="heading h3">Landed Solution</h2><img src="../images/New-FTR-Gif.gif" loading="lazy" width="917" alt="" class="ftrl-image">
+        <div class="w-row">
+          <div class="w-col w-col-6"><img src="../images/FTRL-Solution-1.svg" loading="lazy" alt="">
+            <p class="paragraph parapgraph-with-padding"><strong class="bold">A way to edit the return location and time without surfacing all the options</strong></p>
+            <p class="paragraph">By hiding the return details behind a button and within separate pages, carriers can see the most important information about the load -- the stops and appointment times -- and choose to see the trailer return options if they&#x27;re interested.</p>
+          </div>
+          <div class="w-col w-col-6"><img src="../images/FTRL-Solution-2.svg" loading="lazy" alt="">
+            <p class="paragraph parapgraph-with-padding"><strong>Fee and bonus shown only on the return time selection page</strong></p>
+            <p class="paragraph"><strong class="paragraph">Instead of showing separate fees for changing the trailer return location and requesting an return extension, the fee and bonus is only shown on the time selection page so that the carriers don&#x27;t have to do mental math to figure out the total costs.</strong></p>
+          </div>
+        </div>
       </div>
       <div id="Introducing-Footprint" class="case-study-section-div">
         <h2 id="RangeMe-s-Notification-Cener" class="heading h3">Next Up</h2>
-        <p class="paragraph">With this feature, we’ve allow carriers to choose their trailer return location and time, but how might we help carriers make the correct selections and fill their schedule with compatible loads?</p>
-        <p class="paragraph">In another project, I focus on bridging together this Flexible Trailer Return Locations feature with reloads to make Convoy a more powerful tool for carriers to book loads.<strong class="bold"></strong></p>
+        <p class="paragraph">With this feature, we’ve allow carriers to choose their trailer return location and time, but <strong>how might we help carriers make the correct selections to maximize their schedule with compatible reloads</strong>?</p><img src="../images/FTRL-Reloads-Next-Up.svg" loading="lazy" alt="">
+        <p class="paragraph">In another project, I focus on bridging together the Flexible Trailer Return Locations feature with reloads to<strong> </strong>make Convoy a more powerful tool for carriers to book loads. <strong class="bold"></strong></p>
       </div>
     </div>
   </div>
