@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Tue Nov 08 2022 20:03:17 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Nov 28 2022 01:05:51 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="63646723063c98920f3878e0" data-wf-site="6233f990551d298c802b45cb">
 <head>
   <meta charset="utf-8">
@@ -38,7 +38,7 @@
   </div>
   <div class="project-section-overview-section wf-section">
     <div class="project-section-overview-container w-container">
-      <h1 data-w-id="1b50173c-ec1a-d478-84f0-e8ecd0da7239" style="opacity:0" class="heading h1 white">Scorecard Enhancements</h1>
+      <h1 data-w-id="1b50173c-ec1a-d478-84f0-e8ecd0da7239" style="opacity:0" class="heading h1 white">Performance Scorecard</h1>
       <p data-w-id="0a78d3ef-6113-5fe6-2000-967c97f5bc0b" style="opacity:0" class="paragraph white">As an initiative to improve Convoy&#x27;s core app experience, I worked with the Carrier Performance team to redesign the performance scorecard to increase transparency and improve score comprehension. </p>
     </div>
   </div>
@@ -50,15 +50,13 @@
       <div id="Ideation" class="case-study-section-div">
         <h3 id="Onboarding-Surveys" class="heading h3">Context</h3>
         <p class="paragraph">As a marketplace, Convoy holds a set of standards that defines good performance and determines carriers&#x27; scores for three quality metrics: On Time, App Use, and Falloff (load cancellations). Convoy uses the scores to decide the carrier’s standing on the platform and the associated benefits and consequences. </p>
-        <div id="The-Challenge" class="case-study-section-div">
-          <div class="image"></div>
-        </div>
-        <div class="image"></div>
       </div>
       <div id="Ideation" class="case-study-section-div">
         <div id="The-Challenge" class="case-study-section-div">
           <h3 id="Onboarding-Context" class="heading h3">Current State of Things</h3>
           <p class="paragraph">Carriers can find an overview of their organization’s performance in the Convoy app. This information is not available in the web experience.</p>
+        </div>
+        <div id="The-Challenge" class="case-study-section-div">
           <h3 id="Onboarding-Recent-Improvements" class="heading h4">The Performance System:</h3>
           <ul role="list" class="list">
             <li>
@@ -116,6 +114,9 @@
           <li>
             <p class="paragraph">Reduce the number support emails related to carrier performance</p>
           </li>
+          <li>
+            <p class="paragraph">Improve the quality of the carriers in the marketplace</p>
+          </li>
         </ul>
         <h3 id="Onboarding-Recent-Improvements" class="heading h4">Success Metrics:</h3>
         <ul role="list" class="list">
@@ -129,12 +130,16 @@
       </div>
       <div id="Ideation" class="case-study-section-div">
         <h2 id="Onboarding-Recent-Improvements" class="heading h3">The Process</h2>
+        <h3 id="Onboarding-Recent-Improvements" class="heading h4">Problem Space Deep Dive:</h3>
+        <p class="paragraph">I focused the first few days working with the support specialist to understand the carrier pain points. By reviewing past UX research and support emails and having an understanding of the current user flow, I saw that there are clear opportunities for Convoy to educate more in the app and help these truck drivers manage their account statuses and penalties so that they don’t open their app and wake up to frustration, anxiousness, or confusion.</p>
+      </div><img src="../images/Current-State-Scorecard-1.svg" loading="lazy" alt="">
+      <div id="Ideation" class="case-study-section-div">
         <h3 id="Onboarding-Recent-Improvements" class="heading h4">Concept Ideation:</h3>
-        <p class="paragraph">Reviewing past research conducted by the UXR team, I brainstormed how the scorecard could be designed to give carriers&#x27; enough information about the performance system without overwhelming them with unhelpful specifics. </p>
-      </div><img src="../images/Stakeholder-Review-2.svg" loading="lazy" alt="">
+        <p class="paragraph">I brainstormed how the scorecard could be designed to give carriers&#x27; enough information without overwhelming them with the complexity of the performance system. </p>
+      </div><img src="../images/Current-State-Scorecard_1.svg" loading="lazy" alt="">
       <div id="Ideation" class="case-study-section-div">
         <h3 id="Onboarding-Recent-Improvements" class="heading h4">Stakeholder Review:</h3>
-        <p class="paragraph">With the concepts, I worked on and reviewed the designs with the Carrier Performance team, managing new requirements and starting another iteration focused on: </p>
+        <p class="paragraph">With the concepts, I worked on and sought feedback from the Carrier Performance team, managing requirements and brainstorming concepts focused on: </p>
         <ul role="list" class="list">
           <li>
             <p class="paragraph">Balancing giving the carrier more transparency with the limitations of the performance system&#x27;s intimidating score ranges and dynamically changing thresholds</p>
@@ -143,6 +148,12 @@
             <p class="paragraph">Considering edge cases and nuances of the performance system, such as communicating the Probation state (when the carrier returns to Convoy after a two week suspension)</p>
           </li>
         </ul>
+      </div><img src="../images/Stakeholder-Review-1.svg" loading="lazy" alt="">
+      <div id="Ideation" class="case-study-section-div">
+        <p class="paragraph">Once I created the higher fidelity mockup, it became clear to me that the suspended area took up most of the gauge. Even though it aligned with showcasing the data accurately, it looked super intimidating and almost makes it look like Convoy is trying to make the carriers fail. I decided to take a step back from the business requirements and think through an option that can preserve accurate data communication while conveying Convoy’s expectations clearly.</p>
+      </div><img src="../images/Project-1.6.svg" loading="lazy" alt="">
+      <div id="Ideation" class="case-study-section-div">
+        <p class="paragraph">I preferred the first concept and liked the idea of showing a data visualization of the score ranges for each of the different statues because it helped set a goal in the trucker’s mind, but the PM wasn’t too keen about changing the scoring system and showing the thresholds especially since it’s very intimidating to show the At Risk range being from 0-85. The PM wanted to go with the option with the peer comparison to help explain why their score is the way it is but I had concerns with the actionability of this chart. I had to figure out an optimal solution that met both design and business needs, resulting with the landed solution.</p>
       </div>
       <div id="Ideation" class="case-study-section-div">
         <h2 id="Onboarding-Recent-Improvements" class="heading h3">The Solution</h2>
@@ -165,7 +176,7 @@
       </div>
       <div id="Introducing-Footprint" class="case-study-section-div">
         <h2 id="RangeMe-s-Notification-Cener" class="heading h3">Next Up</h2>
-        <p class="paragraph">The team is currently building out the scorecard improvements in the Convoy app and it&#x27;s coming out in November! After discovering the limitations of how the current performance was build, we plan to continue improving the current scoring system with transparency and carrier comprehension top of mind.</p>
+        <p class="paragraph">The team is currently building out the scorecard improvements in the Convoy app and it is coming out end of the year! Convoy also has time slated for Q1 to think about the ideal performance system. This project helped reveal some of the cracks in and the limitations of the existing scoring system. But in the short term, the team plans to continue improving  the current scoring system with transparency and carrier comprehension top of mind.</p>
       </div>
     </div>
   </div>
