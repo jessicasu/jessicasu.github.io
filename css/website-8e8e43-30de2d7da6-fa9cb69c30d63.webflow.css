@@ -977,9 +977,6 @@ blockquote {
 
 .rounded-image {
   border-radius: 8px;
-  background-image: url('../images/IMG_8093.JPG');
-  background-position: 50% 50%;
-  background-size: cover;
 }
 
 ._24px-padding {
