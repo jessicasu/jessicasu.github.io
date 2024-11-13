@@ -1,0 +1,205 @@
+<!DOCTYPE html><!--  Last Published: Wed Nov 13 2024 05:23:48 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="63c87ae611d9cc9b0045b5ff" data-wf-site="63c87ae611d9cc3fb545b5f1">
+<head>
+  <meta charset="utf-8">
+  <title>Scorecard Enhancements</title>
+  <meta content="Scorecard Enhancements" property="og:title">
+  <meta content="Scorecard Enhancements" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="../css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="../css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="../css/website-8e8e43-30de2d7da6-fa9cb69c30d63.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Yeseva One:regular","Sofia:regular","Poppins:regular,600,800","Lora:regular,500,600,700,italic,500italic,600italic,700italic","DM Sans:regular,italic,500,500italic,700,700italic","Epilogue:regular,900"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="../images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../images/webclip.png" rel="apple-touch-icon">
+</head>
+<body>
+  <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="d44cedff-63d0-2e46-29e7-acc379ec27c2" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+    <div class="container w-container">
+      <a data-w-id="fce7e762-dcca-1400-a773-6d151388849d" href="../index.html" class="nav-link-block w-inline-block">
+        <div class="menu-item-text paragraph white">← Work</div>
+        <div class="menu-item-text-underline"></div>
+      </a>
+      <nav role="navigation" class="w-nav-menu">
+        <a data-w-id="df69de21-df9f-1452-788e-af5d67adc204" href="../about.html" class="nav-link-block w-inline-block">
+          <div class="menu-item-text paragraph white">About</div>
+          <div class="menu-item-text-underline"></div>
+        </a>
+      </nav>
+      <div class="w-nav-button">
+        <div class="icon w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <div class="project-section-overview-section">
+    <div class="project-case-study-overview-container w-container">
+      <div class="project-case-study-overview-title">
+        <h1 data-w-id="3b9ea637-a3ff-ae72-9a8a-ae6afa9bb043" style="opacity:0" class="heading h1 white">File Based Detection and Threat Hunting</h1>
+      </div>
+      <p data-w-id="0a78d3ef-6113-5fe6-2000-967c97f5bc0b" style="opacity:0" class="paragraph white">As part of a strategic investment to expand ExtraHop’s security capabilities, I led the research and designs for a 0 → 1 feature that gives customers visibility into the suspicious files on their network.</p>
+    </div>
+  </div>
+  <div class="hero-image honeydew">
+    <div data-w-id="7ddbaf1c-9032-e827-2390-e901c087f811" style="opacity:0" class="container-5 w-container"><img src="../images/File-Analysis-Cover-Image.svg" loading="lazy" alt=""></div>
+  </div>
+  <div data-w-id="51683dc8-92ad-46a1-17b8-a6d443b78314" style="opacity:0" class="project-content-section">
+    <div class="project-content-container w-container">
+      <div id="Ideation" class="case-study-section-div">
+        <div class="_8px-padding">
+          <h2 id="Onboarding-Surveys" class="heading h2 black">Context</h2>
+        </div>
+        <p class="paragraph black">There are several types of security solutions: Network Detection and Response (NDR), Endpoint Detection and Response (EDR), Security Information and Event Management (SIEM), and Security Orchestration, Automation and Response (SOAR). </p>
+        <p class="paragraph black">ExtraHop is a NDR platform that helps organizations monitor and analyze their network traffic for security threats and anomalies.</p>
+      </div>
+      <div id="The-Challenge" class="case-study-section-div">
+        <div class="_8px-padding">
+          <h2 id="Onboarding-Surveys" class="heading h2 black">The Problem</h2>
+        </div>
+        <p class="paragraph black">While ExtraHop alerts customers of security threats, its capabilities fall short when it comes to detailed file analysis. Within the Records page (where customers see snapshots of network events), customers can see limited metadata about a file transfer - the filename, the devices or IP addresses that sent it, the protocols over how it was sent. However, the current file metadata is not easily discoverable. To be able to find these records, customers need to know what to search by and the specific name of the files.</p>
+      </div>
+      <div id="The-Challenge" class="case-study-section-div"><img src="../images/Discovery-Issue.svg" loading="lazy" alt="" class="rounded-image"></div>
+      <div id="The-Challenge" class="case-study-section-div">
+        <blockquote class="block-quote paragraph black">“We would like the ability to read tags [inside of documents to identify the type of file] and track where sensitive data is going on the network. With Zero Trust Mandates for tagging this would be an important part of visibility and receiving from breaches. For example we could tell them how many sensitive files left the network.”</blockquote>
+      </div>
+      <div id="The-Challenge" class="case-study-section-div">
+        <p class="paragraph black">Customers have expressed a need for enhanced visibility into files, including their contents and potential risks, such as malware, ransomware, and insider threats. Within ExtraHop, they aren’t able to see the file contents or check the files against any malicious indicators. Our competitors offer comprehensive coverage against file-based threats, which poses a risk of losing customers if we don’t address this gap.</p>
+      </div>
+      <div id="Ideation" class="case-study-section-div">
+        <div class="_8px-padding">
+          <h2 id="Onboarding-Recent-Improvements" class="heading h2 black">Project Goals</h2>
+        </div>
+        <p class="paragraph black">From the business and product perspective we want to understand customer use cases and concerns regarding file-based threats and develop the product strategy for a new file based feature.</p>
+        <div class="_8px-padding">
+          <p class="paragraph black">There were many product directions that we could take:</p>
+        </div>
+        <ul role="list" class="list">
+          <li>
+            <p class="paragraph black">A new proactive file carving feature that enables customers to specify which files are automatically downloaded to their resource constrained systems</p>
+          </li>
+          <li>
+            <p class="paragraph black">A new files table that provides insights into who accessed which files when</p>
+          </li>
+          <li>
+            <p class="paragraph black">Improvements to existing pages so that it’s more suited for files investigations</p>
+          </li>
+        </ul>
+      </div>
+      <div id="The-Challenge" class="case-study-section-div">
+        <blockquote class="block-quote paragraph black"><strong>How might we create a file analysis feature that empowers users to identify file activity across their network?</strong></blockquote>
+      </div>
+      <div id="Ideation" class="case-study-section-div">
+        <div class="_8px-padding">
+          <h2 id="Onboarding-Recent-Improvements" class="heading h2 black">User Research</h2>
+        </div>
+        <p class="paragraph black">To navigate the ambiguous problem space, I led 13 customer sessions and spoke with individuals whose roles included cybersecurity engineer, incident response team member, and threat hunter to understand customers’ file analysis toolset and processes today and gaps and opportunities for ExtraHop.</p>
+        <div id="Ideation" class="case-study-section-div"><img src="../images/Figjam.svg" loading="lazy" alt="" class="rounded-image"></div>
+        <h4 id="Onboarding-Recent-Improvements" class="heading h4 black">Learnings</h4>
+        <ul role="list" class="list">
+          <li>
+            <p class="paragraph black">Nearly all the customers have some sort of tool with file analysis capabilities.</p>
+          </li>
+          <li>
+            <p class="paragraph black">Customers talked about using file analysis primarily for malware detection and hunting and data loss prevention.</p>
+          </li>
+          <li>
+            <p class="paragraph black">File carving is not a common action among the customers.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="case-study-section-div">
+        <h4 id="Onboarding-Recent-Improvements" class="heading h4 black">User Scenarios</h4>
+        <p class="paragraph black">As an analyst, I have a file of interest.</p>
+        <ul role="list" class="list">
+          <li>
+            <p class="paragraph black">I want to make a determination on the file. Is it benign or malicious? I want to check the file against threat intel lookup platforms. If the file is determined to be malicious, I want to send the file to my sandbox tool for analysis.</p>
+          </li>
+        </ul>
+        <p class="paragraph black">As an analyst, I have a file hash.</p>
+        <ul role="list" class="list">
+          <li>
+            <p class="paragraph black">I want to check the file hash against my threat intel tools to make a determination on the file. I want to search the malicious hash on all platforms to see the scope of the file activity.</p>
+          </li>
+        </ul>
+        <p class="paragraph black">As a threat hunter, I am looking for unusual files or events.</p>
+        <ul role="list" class="list">
+          <li>
+            <p class="paragraph black">I don’t have a particular file or hash in mind but I want to search for possible files and events of interest.</p>
+          </li>
+        </ul>
+      </div>
+      <div id="Ideation" class="case-study-section-div">
+        <div class="_8px-padding">
+          <h2 id="Onboarding-Recent-Improvements" class="heading h2 black">Opportunities</h2>
+        </div>
+        <p class="paragraph black">Guided by our research findings, we established key product opportunities:</p>
+        <ul role="list" class="list">
+          <li>
+            <p class="paragraph black">Customers believe that ExtraHop could cover gaps and see files or file movements not detected by their existing tools.</p>
+          </li>
+          <li>
+            <p class="paragraph black">Customers imagine using ExtraHop to reverse engineer a situation to understand where the file originally came from.</p>
+          </li>
+          <li>
+            <p class="paragraph black">Customers talked about how it’s important to grab files for investigation and response and described situations where files have been no longer accessible.</p>
+          </li>
+        </ul>
+      </div>
+      <div id="Ideation" class="case-study-section-div">
+        <div class="_8px-padding">
+          <h2 id="Onboarding-Recent-Improvements" class="heading h2 black">How ExtraHop Can Help</h2>
+        </div>
+        <p class="paragraph black">Based on the insights gained and the principles defined, we developed the File Investigation View, which includes:</p>
+      </div>
+      <div id="Ideation" class="case-study-section-div">
+        <div class="_16px-padding"><img src="../images/Files-Table-GIF.gif" loading="lazy" width="1048" alt="" class="scorecard-gif"></div>
+        <h4 id="Onboarding-Recent-Improvements" class="heading h4 black">Clear workflows to discover files and take advantage of our rich data</h4>
+        <p class="paragraph black">Customers have an investigative workspace to build timelines for file activity and search for file hashes.</p>
+      </div>
+      <div id="Introducing-Footprint" class="case-study-section-div">
+        <div class="_16px-padding"><img src="../images/File-Hash-Lookup-GIF.gif" loading="lazy" width="973" alt="" class="scorecard-gif"></div>
+        <h4 id="Onboarding-Recent-Improvements" class="heading h4 black"><strong>Ability to make a determination on the file</strong></h4>
+        <p class="paragraph black">File hashes are checked against a trusted source of indicators of compromise (IOC) lists. Customers can check against their own file hash lists.</p>
+      </div>
+      <div id="Introducing-Footprint" class="case-study-section-div">
+        <div class="_16px-padding"><img src="../images/File-Extraction.svg" loading="lazy" alt="" class="rounded-image"></div>
+        <h4 id="Onboarding-Recent-Improvements" class="heading h4 black"><strong>Access to files of interest</strong></h4>
+        <p class="paragraph black">Customers can safely extract files, check the content of the file, and send the file to my sandbox tool for further analysis.</p>
+      </div>
+      <div id="Introducing-Footprint" class="case-study-section-div">
+        <div class="_8px-padding">
+          <h2 id="RangeMe-s-Notification-Cener" class="heading h2 black">Next Up</h2>
+        </div>
+        <p class="paragraph black">By focusing on user-centered design and addressing the specific needs of analysts and threat hunters, we have developed a solution that enhances ExtraHop’s capabilities in file threat detection. Our approach not only strengthens our competitive position but also provides our customers with the critical tools they need to safeguard their organizations against file-based threats. As we move forward, ongoing user feedback and data analytics will be crucial to refining our features and ensuring they continue to meet evolving security challenges.<br><br>We established key metrics to evaluate the effectiveness of the File Investigation View: feature usage (tracking page visits and interactions with the file-centric features) and MTTI (monitoring the average time it takes for customers to close a detection related to file threats). The team is currently rolling out the new file based features, more details to come!<br></p>
+      </div>
+    </div>
+  </div>
+  <div data-collapse="none" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="footer w-nav">
+    <div data-w-id="6b0d24e2-5f70-f984-2ce3-1d061735605b" class="container-6 w-container">
+      <nav role="navigation" class="nav-menu w-nav-menu">
+        <a data-w-id="6b0d24e2-5f70-f984-2ce3-1d0617356061" href="https://drive.google.com/file/d/1hv2er3sVCzriNcrYAezBBNldgWJyqqiZ/view" target="_blank" class="nav-link-block w-inline-block">
+          <div class="menu-item-text paragraph white">Resume</div>
+          <div class="menu-item-text-underline"></div>
+        </a>
+        <a data-w-id="6b0d24e2-5f70-f984-2ce3-1d061735605d" href="https://www.linkedin.com/in/jessicaysu/" target="_blank" class="nav-link-block w-inline-block">
+          <div class="menu-item-text paragraph white">Linkedin</div>
+          <div class="menu-item-text-underline"></div>
+        </a>
+        <a data-w-id="e075c132-eda6-21d5-a4cd-61b7343ef319" href="../work/30-days-of-illustrations.html" class="nav-link-block w-inline-block">
+          <div class="menu-item-text paragraph white">Illustrations</div>
+          <div class="menu-item-text-underline"></div>
+        </a>
+      </nav>
+      <a data-w-id="6b0d24e2-5f70-f984-2ce3-1d0617356069" href="mailto:sujessicay@gmail.com" class="nav-link-block email w-inline-block">
+        <div class="menu-item-text paragraph white">sujessicay@gmail.com</div>
+        <div class="menu-item-text-underline"></div>
+      </a>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=63c87ae611d9cc3fb545b5f1" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="../js/webflow.js" type="text/javascript"></script>
+</body>
+</html>
