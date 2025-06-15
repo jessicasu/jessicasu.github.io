@@ -5,11 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Cantonese Flashcards</title>
   <link rel="stylesheet" href="style.css" />
-  <!-- ResponsiveVoice.js for Cantonese TTS -->
   <script src="https://code.responsivevoice.org/responsivevoice.js?key=Ot0oCTVp"></script>
 </head>
 <body>
   <div class="container">
+    <div class="toggle">
+      <label for="setSelect">Select Set:</label>
+      <select id="setSelect">
+        <option value="words">Common Words</option>
+        <option value="phrases">Common Phrases</option>
+      </select>
+    </div>
+
     <div class="flashcard" id="flashcard">
       <div class="flashcard-inner">
         <div class="front" id="englishWord">Loading...</div>
@@ -19,6 +26,7 @@
         </div>
       </div>
     </div>
+
     <button id="nextBtn">Next</button>
   </div>
 
